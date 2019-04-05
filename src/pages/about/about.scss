@@ -1,0 +1,82 @@
+page-about {
+    .multimedia-home {
+        background:#778899;
+        color: white;
+
+    }
+    .heatweather{
+        position: inherit;
+        float: left;
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border-radius: 50%;
+        background: #ff3e62;
+    
+    }
+    .coolweather{
+
+      position: inherit;
+      float: right;
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border-radius: 50%;
+   
+        text-align: center;
+        
+    }
+    .wetweather{
+        position: inherit;
+        float: left;
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border-radius: 50%;
+      
+        text-align: center;
+        
+    }
+    .dryweather{
+        position: inherit;
+        float: right;
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border-radius: 50%;
+    
+        text-align: center;
+        color:#00ccff;
+    }
+    .Cherry{
+        text-align:center ;
+        position: inherit;
+        float: left;
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border-radius: 50%;
+
+    }
+    .Ice{
+        text-align:center ;
+        position: inherit;
+        float: right;
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border-radius: 50%;
+        background: #00ccff;
+        
+
+    }
+    .Lime{
+        text-align:center ;
+        position: inherit;
+        float: right;
+        width: 40px;
+        margin: 10px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}

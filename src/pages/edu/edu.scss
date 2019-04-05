@@ -1,0 +1,31 @@
+page-edu {
+    .multimedia-home {
+        
+        background:#778899;
+        color: white;
+       
+    }
+    .logo{
+        opacity: 0.1;
+        filter: alpha(opacity=50);
+        position: absolute; 
+    }
+        
+    
+    .button {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+
+    
+
+
+}

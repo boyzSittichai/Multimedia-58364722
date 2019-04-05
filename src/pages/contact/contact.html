@@ -1,0 +1,42 @@
+<ion-content padding class="multimedia-home">
+
+    <h5>ใช้งานกล้องเพื่ออ่านข้อความ</h5>
+    <br>
+  
+
+  <ion-card *ngFor="let item of items | async">
+  <img [src]="'data:image/png;base64,' + item.imageData"/>
+  <ion-card-content>
+  <ion-list no-lines>
+  <ion-list-header>Labels</ion-list-header>
+  <ion-item *ngFor="let label of item.results[0].textAnnotations">{{label.description}}</ion-item>
+  </ion-list>
+  </ion-card-content>
+  </ion-card>
+  <ion-fab bottom right>
+  <button ion-fab (click)="takePhoto()">
+  <ion-icon name="camera"></ion-icon>
+  </button>
+  </ion-fab>
+  <br>
+  <br>
+  <br>
+  <br><br><br><br><br><br><br><br><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h6>Developed by Google Cloud Vision</h6>
+  <img src="./assets/icon/google.jpeg" style="color:#ffffff;">
+
+ 
+ </ion-content>
+ 
+  
